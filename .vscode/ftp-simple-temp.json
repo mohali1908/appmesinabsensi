@@ -1,0 +1,17 @@
+{
+    "name": "22.44 Server",
+    "host": "192.168.22.44",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "apbatech",
+    "password": "Apbatech57!",
+    "remotePath": "/var/www/html/absensi",
+    "uploadOnSave": true,
+    "useTempFile": false,
+    "openSsh": false,
+    "watcher": {
+        "files": "*.{js,html,blade.php,php}",
+        "autoUpload": true,
+        "autoDelete": true
+    }
+}
